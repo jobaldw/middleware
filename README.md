@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="JB Designs logo" src="./assets/jb-icon.jpg" height="150"/>
   <h3 align="center">shared</h3>
-  <p align="center">Lightweight middleware package that utilizes Auth0 to validate API endpoints with Bearer Token Authentication..</p>
+  <p align="center">Lightweight middleware package that utilizes Auth0 to validate API endpoints with Bearer Token Authentication.</p>
 </p>
 
 # Badges
