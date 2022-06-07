@@ -76,10 +76,10 @@ func New(app string, conf Config) (*Authentication, error) {
 	}, err
 }
 
-// Middleware
+// Auth0
 //	Handler function that authenticates handler.
 // 	* @param next: handler function that needs to be authenticated
-func (a *Authentication) Middleware(next http.HandlerFunc) http.HandlerFunc {
+func (a *Authentication) Auth0(next http.HandlerFunc) http.HandlerFunc {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// set writer header options
 		w.Header().Set("Access-Control-Allow-Origin", all)
